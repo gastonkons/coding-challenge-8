@@ -26,6 +26,19 @@ h1 + hr {
 
 @media screen and (max-width:768px){
     h1 {font-size:4rem!important}
+    footer .text-left,
+    footer .text-right {
+        text-align:center!important;
+    }
+    .img-center-xs {
+        align-items:center !important;
+        justify-content: center !important;
+    }
+
+    #contact-img {
+        width:40%!important;
+
+    }
 }
 
 @media screen and (max-width:460px){
@@ -38,6 +51,8 @@ h1 + hr {
         align-items:center !important;
         justify-content: center !important;
     }
+
+
 }
 
 .btn-trans {
